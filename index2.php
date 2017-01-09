@@ -16,9 +16,11 @@ while($foo<=30){
 	if ($foo<=20){
 	echo $multi;	
 	}
-	else{
+	else {
+		$foo--;
 		echo $foo;
 	}
 }
+
 
  ?>
